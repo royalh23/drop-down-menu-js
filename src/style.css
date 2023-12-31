@@ -16,6 +16,7 @@ body {
 .content {
   height: 100vh;
   padding: 20px;
+  background-color: rgb(101, 214, 255);
 }
 
 img[src$='svg'] {
@@ -42,4 +43,5 @@ img[src$='svg'] {
   font-size: 1.5rem;
   gap: 40px;
   width: 300px;
+  background-color: white;
 }
