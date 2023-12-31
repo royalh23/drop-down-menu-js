@@ -24,6 +24,21 @@ img[src$='svg'] {
   height: 35px;
 }
 
+.menu-icon,
+.close-icon {
+  cursor: pointer;
+}
+
+.menu-icon:hover,
+.close-icon:hover {
+  background-color: rgb(173, 173, 173);
+  border-radius: 5px;
+}
+
+.close-icon {
+  margin-top: 10px;
+}
+
 .menu {
   display: flex;
   gap: 10px;
