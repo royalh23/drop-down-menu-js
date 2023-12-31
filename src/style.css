@@ -15,7 +15,6 @@ body {
 
 .content {
   height: 100vh;
-  position: relative;
   padding: 20px;
 }
 
@@ -27,8 +26,9 @@ img[src$='svg'] {
 .menu {
   display: flex;
   gap: 10px;
-  position: absolute;
+  position: fixed;
   top: 0;
+  left: 0;
   height: 100vh;
   visibility: hidden;
 }
