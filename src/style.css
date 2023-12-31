@@ -29,6 +29,7 @@ img[src$='svg'] {
   position: absolute;
   top: 0;
   height: 100vh;
+  visibility: hidden;
 }
 
 .menu ul {
