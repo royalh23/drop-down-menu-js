@@ -5,13 +5,9 @@ function displayMenu(menuBtnClass, menuClass, closeBtnClass) {
   const menu = document.querySelector(`.${menuClass}`);
   const closeBtn = document.querySelector(`.${closeBtnClass}`);
 
-  menuBtn.addEventListener('click', () => {
-    menu.style.visibility = 'visible';
-  });
+  menuBtn.addEventListener('click', () => menu.classList.toggle('visible'));
 
-  closeBtn.addEventListener('click', () => {
-    menu.style.visibility = 'hidden';
-  });
+  closeBtn.addEventListener('click', () => menu.classList.toggle('visible'));
 }
 
 displayMenu('menu-icon', 'menu', 'close-icon');

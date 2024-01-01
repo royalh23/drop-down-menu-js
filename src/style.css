@@ -60,3 +60,7 @@ img[src$='svg'] {
   width: 300px;
   background-color: white;
 }
+
+.visible {
+  visibility: visible;
+}
