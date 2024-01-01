@@ -13,7 +13,7 @@ body {
   padding: 0;
 }
 
-.content {
+#content {
   height: 100vh;
   padding: 20px;
   background-color: rgb(101, 214, 255);
