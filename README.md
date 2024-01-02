@@ -1,5 +1,3 @@
-This is a webpack template repository, which includes as default:
+This project implements a drop-down menu functionaly when a menu icon is clicked.
 
-- Webpack (devDependency);
-- ESlint (devDependency);
-- Prettier (devDependency).
+The project is live at: https://royalh23.github.io/drop-down-menu-js/
